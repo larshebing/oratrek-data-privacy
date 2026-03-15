@@ -63,9 +63,40 @@ Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendig
 ---
 
 ## 7. App-Berechtigungen
+ | Berechtigung       | Zweck                          | Rechtsgrundlage                     |
+ |--------------------|--------------------------------|-------------------------------------|
+ | Standort           | Aktivitätsaufzeichnung, Navigation | Vertragserfüllung (Art. 6 Abs. 1 b) |
+ | Dateispeicher      | Speicherung/Verwaltung von `.fit`-Dateien | Vertragserfüllung (Art. 6 Abs. 1 b) |
+ | Netzwerkzugriff    | Karten-Downloads, GPX-Routing, Strava | Berechtigte Interessen (Art. 6 Abs. 1 f) |
 
-| Berechtigung       | Zweck                          | Rechtsgrundlage                     |
-|--------------------|--------------------------------|-------------------------------------|
-| Standort           | Aktivitätsaufzeichnung, Navigation | Vertragserfüllung (Art. 6 Abs. 1 b) |
-| Dateispeicher      | Speicherung/Verwaltung von `.fit`-Dateien | Vertragserfüllung (Art. 6 Abs. 1 b) |
-| Netzwerkzugriff    | Karten-Downloads, GPX-Routing
+---
+
+## 8. Nutzerrechte
+- **Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit** (Art. 15–20 DSGVO).
+- **Widerruf von Einwilligungen** (z. B. Strava, Analytics) jederzeit in den App-Einstellungen.
+- **Widerspruchsrecht** gegen Verarbeitungen nach Art. 6 Abs. 1 lit. f DSGVO.
+- **Beschwerderecht** bei einer Aufsichtsbehörde.
+
+---
+
+## 9. Sicherheit
+- **Technische Maßnahmen**: TLS/SSL-Verschlüsselung, Zugriffskontrollen, Datensparsamkeit.
+- **Organisatorische Maßnahmen**: Regelmäßige Überprüfung der Sicherheitsstandards.
+
+---
+
+## 10. Änderungen dieser Datenschutzerklärung
+- Aktualisierungen werden in der App veröffentlicht.
+- Bei **wesentlichen Änderungen** (z. B. neue Datenverarbeitungen) informieren wir Sie gesondert.
+
+---
+
+## 11. Kontakt und Aufsichtsbehörde
+- **Fragen/Kontakt**: [veloq.tracker@gmail.com](mailto:veloq.tracker@gmail.com)
+- **Aufsichtsbehörde**: Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.
+
+---
+
+### Hinweis für Nutzer
+- **Keine automatisierte Entscheidungsfindung/Profiling** (Art. 22 DSGVO).
+- **Keine Pflicht zur Bereitstellung**: Ohne Standortfreigabe sind Kernfunktionen nicht nutzbar.
