@@ -7,7 +7,7 @@
 **Lars Hebing**
 Kardenstr. 102
 45768 Marl, Deutschland
-E-Mail: [veloq.tracker@gmail.com](mailto:veloq.tracker@gmail.com)
+E-Mail: [oratrek@gmail.com](mailto:oratrek@gmail.com)
 
 ---
 
@@ -92,7 +92,7 @@ Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendig
 ---
 
 ## 11. Kontakt und Aufsichtsbehörde
-- **Fragen/Kontakt**: [veloq.tracker@gmail.com](mailto:veloq.tracker@gmail.com)
+- **Fragen/Kontakt**: [oratrek@gmail.com](mailto:oratrek@gmail.com)
 - **Aufsichtsbehörde**: Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.
 
 ---
