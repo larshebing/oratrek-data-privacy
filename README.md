@@ -1,5 +1,5 @@
 # Datenschutzerklärung für Oratrek
-**Stand: 29. September 2026**
+**Stand: 02. November 2026**
 
 ---
 
@@ -12,18 +12,19 @@ E-Mail: [oratrek@gmail.com](mailto:oratrek@gmail.com)
 ---
 
 ## 2. Übersicht der Datenverarbeitung
-Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendige Funktionen genutzt (z. B. Karten-Downloads, Generierung von Abbiegehinweisen) oder nach Ihrer Zustimmung (z. B. Analysedaten, Upload zu Intervals.icu).
+Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendige Funktionen genutzt (z. B. Karten-Downloads, Prüfung auf neue Kartendaten) oder nach Ihrer Zustimmung (z. B. Analysedaten, Upload zu Intervals.icu).
 
 ### 2.1 Verarbeitete Datenkategorien
 - **Lokale Aktivitätsdaten**: GPS-Positionen, Zeitstempel, Distanz, Geschwindigkeit, Höhenmeter, Sensorwerte (nur lokal als `.fit`-Dateien gespeichert).
-- **Technische Metadaten**: IP-Adresse, Geräteinformationen, App-Version, Zeitstempel (bei Karten-Downloads, GPX-Import, Crashlytics/Analytics).
+- **Importierte Routen**: GPX-Dateien werden nur auf dem Gerät verarbeitet und nicht übertragen.
+- **Technische Metadaten**: IP-Adresse, Geräteinformationen, App-Version, Zeitstempel (bei Karten-Downloads, der Prüfung auf neue Kartendaten beim App-Start, Crashlytics/Analytics).
 - **Optionale Daten**: Aktivitätsdaten (`.fit`-Datei mit GPS-Track, Zeitstempeln und Sensorwerten sowie der Aktivitätsname) für Intervals.icu, nur nach manueller Verknüpfung mit Ihrem persönlichen API-Key. Der API-Key wird verschlüsselt auf dem Gerät gespeichert.
 
 ### 2.2 Zwecke der Verarbeitung
 - Bereitstellung der Kernfunktionen (Aktivitätsaufzeichnung, Offline-Navigation, Kartenverwaltung).
 - Stabilität und Fehlerbehebung (Crashlytics/Analytics, nur nach Opt-In).
 - Optionale Datenübermittlung an Intervals.icu (nur nach aktiver Verknüpfung).
-- Netz- und Infrastrukturabrufe (Karten-Downloads, GPX-Routing).
+- Netz- und Infrastrukturabrufe (Karten-Downloads, Prüfung auf neue Kartendaten).
 
 ---
 
@@ -38,7 +39,6 @@ Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendig
 
 | Empfänger          | Zweck                          | Rechtsgrundlage                     | Drittlandtransfer |
 |--------------------|--------------------------------|-------------------------------------|-------------------|
-| Hetzner (Deutschland) | Hosting GraphHopper (GPX-Routing) | Berechtigte Interessen (Art. 6 Abs. 1 f) | Nein (EU)         |
 | Cloudflare (USA/EU-Edge) | CDN für Kartendateien          | Berechtigte Interessen (Art. 6 Abs. 1 f) | Ja (DPF/Standardvertragsklauseln) |
 | Google (Firebase)  | Crashlytics/Analytics (Opt-In) | Einwilligung (Art. 6 Abs. 1 a)      | Ja (DPF/Standardvertragsklauseln) |
 | intervals.icu Ltd. (Vereinigtes Königreich) | Upload von Aktivitäten | Einwilligung (Art. 6 Abs. 1 a) | Ja (nur nach Nutzerzustimmung, siehe Abschnitt 5) |
@@ -51,14 +51,13 @@ Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendig
 ## 5. Internationale Datentransfers
 - **USA**: Cloudflare und Firebase können Daten in die USA übermitteln. Grundlage sind das **EU-US Data Privacy Framework (DPF)** und Standardvertragsklauseln.
 - **Vereinigtes Königreich**: Intervals.icu hat seinen Sitz im Vereinigten Königreich, für das ein Angemessenheitsbeschluss der EU-Kommission besteht. Laut Intervals.icu werden die Daten unter anderem in Deutschland und Finnland verarbeitet und bei Cloud-Anbietern (Google, Backblaze, Wasabi) gespeichert.
-- **EU**: Hetzner verarbeitet Daten ausschließlich in der EU.
 
 ---
 
 ## 6. Speicherdauer
 - **Lokale Daten** (`.fit`-Dateien): Bis zur Löschung durch den Nutzer.
 - **Intervals.icu**: Gemäß der Datenschutzerklärung von Intervals.icu. Hochgeladene Aktivitäten können Sie in Ihrem Intervals.icu-Konto löschen. Das Trennen der Verbindung in der App löscht nur den gespeicherten API-Key.
-- **Server-Logs** (Hetzner/Cloudflare): 14 Tage.
+- **Server-Logs** (Cloudflare): 14 Tage.
 - **Crashlytics/Analytics**: 14 Monate.
 
 ---
@@ -68,7 +67,7 @@ Die App ist **offline-zentriert**. Online-Verbindungen werden nur für notwendig
  |--------------------|--------------------------------|-------------------------------------|
  | Standort           | Aktivitätsaufzeichnung, Navigation | Vertragserfüllung (Art. 6 Abs. 1 b) |
  | Dateispeicher      | Speicherung/Verwaltung von `.fit`-Dateien | Vertragserfüllung (Art. 6 Abs. 1 b) |
- | Netzwerkzugriff    | Karten-Downloads, GPX-Routing, Intervals.icu-Upload | Berechtigte Interessen (Art. 6 Abs. 1 f) |
+ | Netzwerkzugriff    | Karten-Downloads, Prüfung auf neue Kartendaten, Intervals.icu-Upload | Berechtigte Interessen (Art. 6 Abs. 1 f) |
 
 ---
 
